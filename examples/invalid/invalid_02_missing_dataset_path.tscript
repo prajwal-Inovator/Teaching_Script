@@ -1,0 +1,5 @@
+# invalid_02_missing_dataset_path.tscript
+lesson "bad_missing_dataset_path" {
+    dataset
+    test
+}

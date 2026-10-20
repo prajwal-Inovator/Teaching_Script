@@ -1,0 +1,8 @@
+# invalid_04_missing_arrow.tscript
+lesson "bad_missing_arrow" {
+    dataset "data/iris.csv"
+    add_examples {
+        [5.1, 3.5, 1.4, 0.2] "setosa"
+    }
+    test
+}

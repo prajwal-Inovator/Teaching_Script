@@ -1,0 +1,4 @@
+lesson "broken" {
+    dataset
+    test
+}

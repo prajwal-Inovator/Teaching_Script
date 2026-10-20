@@ -1,0 +1,6 @@
+# valid_02_checkpoint.tscript
+lesson "iris_checkpoint_demo" {
+    dataset "data/iris.csv"
+    test
+    checkpoint "baseline"
+}

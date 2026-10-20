@@ -1,0 +1,8 @@
+# invalid_03_missing_comma.tscript
+lesson "bad_missing_comma" {
+    dataset "data/iris.csv"
+    add_examples {
+        [5.1 3.5, 1.4, 0.2] -> "setosa"
+    }
+    test
+}

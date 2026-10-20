@@ -1,0 +1,1 @@
+"""TeachingScript interpreter package."""

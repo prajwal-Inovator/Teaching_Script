@@ -1,0 +1,75 @@
+# ==========================================
+# TeachAIx - Git Ignore
+# ==========================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Environment / Secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- VS Code ----------
+.vscode/
+*.code-workspace
+
+# ---------- Java ----------
+*.class
+target/
+out/
+
+# ---------- ANTLR ----------
+antlr-4.13.2-complete.jar
+.antlr/
+# Generated ANTLR Python output is tracked under generated/ (regenerate via generate_parser.ps1)
+
+# ---------- Graphviz ----------
+*.exe
+
+# ---------- Generated / Temporary ----------
+*.log
+*.tmp
+*.temp
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Machine Learning ----------
+*.pkl
+*.joblib
+*.model
+
+# ---------- Checkpoints ----------
+checkpoints/
+*.checkpoint
+
+# ---------- Build / Cache ----------
+build/
+dist/
+*.egg-info/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Node / Frontend (if added later) ----------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

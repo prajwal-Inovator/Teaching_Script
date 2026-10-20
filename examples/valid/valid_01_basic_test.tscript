@@ -1,0 +1,5 @@
+# valid_01_basic_test.tscript
+lesson "iris_basic_test" {
+    dataset "data/iris.csv"
+    test
+}

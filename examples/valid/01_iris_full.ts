@@ -1,0 +1,18 @@
+lesson "iris_workflow" {
+    dataset "data/iris.csv"
+
+    test
+
+    checkpoint "baseline"
+
+    add_examples {
+        [5.1, 3.5, 1.4, 0.2] -> "setosa"
+        [6.0, 2.9, 4.5, 1.5] -> "versicolor"
+    }
+
+    test
+
+    rollback "baseline"
+
+    test
+}

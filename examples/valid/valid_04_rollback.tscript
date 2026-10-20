@@ -1,0 +1,8 @@
+# valid_04_rollback.tscript
+lesson "iris_rollback_demo" {
+    dataset "data/iris.csv"
+    test
+    checkpoint "baseline"
+    rollback "baseline"
+    test
+}

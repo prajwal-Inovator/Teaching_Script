@@ -145,8 +145,7 @@ def _init_state() -> None:
 
 def page_workspace() -> None:
     ss = st.session_state
-    status = "Running…" if ss.get("_running") else "Ready"
-    header_block(status=status)
+    header_block(status="Ready")
 
     col_editor, col_side = st.columns([1.55, 1], gap="large")
 

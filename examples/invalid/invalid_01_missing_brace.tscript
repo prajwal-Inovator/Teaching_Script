@@ -1,0 +1,5 @@
+# invalid_01_missing_brace.tscript
+lesson "bad_missing_brace" {
+    dataset "data/iris.csv"
+    test
+# missing closing brace

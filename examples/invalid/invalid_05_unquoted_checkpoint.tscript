@@ -1,0 +1,6 @@
+# invalid_05_unquoted_checkpoint.tscript
+lesson "bad_unquoted_checkpoint" {
+    dataset "data/iris.csv"
+    checkpoint baseline
+    test
+}
